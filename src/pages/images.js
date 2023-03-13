@@ -5,7 +5,7 @@ import Gallery from "../components/Gallery";
 const Page = () => {
   return (
     <Layout>
-      <Gallery subreddit="images" />
+      <Gallery subreddit="collegesluts" />
     </Layout>
   );
 };
