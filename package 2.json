@@ -5,7 +5,7 @@
   "description": "gallery",
   "author": "MBK",
   "engines": {
-    "node": ">=16"
+    "node": ">=12.20"
   },
   "keywords": [
     "gatsby"
