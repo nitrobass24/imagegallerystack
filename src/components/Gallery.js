@@ -12,11 +12,15 @@ const Container = styled.div`
   background-color: #fef5e6;
 
   .infinite-scroll-component {
-    margin: auto;
-    width: auto;
-    float: left;
-    clear: both;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    //margin: auto;
+    //width: auto;
+    //float: left;
+    //clear: both;
+    //display: block;
     //display: grid;
     //grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     //grid-gap: 1em;
