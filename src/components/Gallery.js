@@ -11,11 +11,32 @@ const Container = styled.div`
   padding: 1em 10px 3.75em 10px;
   background-color: #fef5e6;
 
-  .infinite-scroll-component {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.infinite-scroll-component {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; /* align to the top of the container */
+}
+
+.insta-img {
+  width: 100%; /* fill the width of the container */
+  height: auto; /* maintain aspect ratio */
+  object-fit: cover;
+}
+
+.insta {
+  width: calc((100% - 18px * 2) / 3); /* calculate the width of each column based on the number of columns you want */
+  height: auto; /* maintain aspect ratio */
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px #444;
+  margin: 9px;
+}
+
+  //.infinite-scroll-component {
+   // display: flex;
+   // flex-wrap: wrap;
+   // justify-content: center;
+   // align-items: center;
     //margin: auto;
     //width: auto;
     //float: left;
@@ -25,31 +46,31 @@ const Container = styled.div`
     //grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     //grid-gap: 1em;
     //overflow: unset !important;
-  }
-  .insta-img {
+  //}
+  //.insta-img {
     //height: 290px;
     //width: 100%;
     //object-fit: cover;
-    width: 360px; /* Set the width to a fixed value */
-    height: auto; /* Set the height to auto to maintain aspect ratio */
-    overflow-clip-margin: content-box;
-    overflow: clip;
+    //width: 360px; /* Set the width to a fixed value */
+    //height: auto; /* Set the height to auto to maintain aspect ratio */
+    //overflow-clip-margin: content-box;
+    //overflow: clip;
     //aspect-ratio: auto 360 / 300;
     //height: 300px;
-  }
-  .insta {
+  //}
+  //.insta {
     //width: 100%;
     //height: 290px;
-    box-sizing: border-box;
-    box-shadow: 1px 1px 10px #444;
-    float: left;
-    display: flex;
-    height: 300px;
-    width: 360px;
-    text-align: center;
-    min-width: 200px;
-    margin: 9px;
-  }
+    //box-sizing: border-box;
+    //box-shadow: 1px 1px 10px #444;
+    //float: left;
+    //display: flex;
+    //height: 300px;
+    //width: 360px;
+    //text-align: center;
+    //min-width: 200px;
+    //margin: 9px;
+  //}
   span {
     font-size: 16px;
     font-weight: 500;
