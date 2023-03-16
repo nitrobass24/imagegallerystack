@@ -39,7 +39,7 @@ const Container = styled.div`
     box-sizing: border-box;
     box-shadow: 1px 1px 10px #444;
     float: left;
-    display: inline-block;
+    display: flex;
     height: 300px;
     width: 360px;
     text-align: center;
