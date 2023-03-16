@@ -26,11 +26,12 @@ const Container = styled.div`
     //height: 290px;
     //width: 100%;
     //object-fit: cover;
-    width: 360px;
+    width: 360px; /* Set the width to a fixed value */
+    height: auto; /* Set the height to auto to maintain aspect ratio */
     overflow-clip-margin: content-box;
     overflow: clip;
     //aspect-ratio: auto 360 / 300;
-    height: 300px;
+    //height: 300px;
   }
   .insta {
     //width: 100%;
