@@ -20,18 +20,21 @@ const Container = styled.div`
   width: 100%;
   height: auto;
   object-fit: cover;
-  //padding: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .insta {
   break-inside: avoid-column; /* prevent items from breaking across columns */
   //margin-top: 100px;
   //margin-bottom: 100px;
-  margin-bottom: 18px; /* add margin to the bottom of each item to create spacing */
+  //margin-bottom: 18px; /* add margin to the bottom of each item to create spacing */
   box-sizing: border-box;
   box-shadow: 1px 1px 10px #444;
   width: 100%;
   height: auto;
+  margin: 0;
+  padding: 0;
   //padding: 0; //10px 5px;
   //margin: 0 5px;
   //border: 10px solid transparent;
