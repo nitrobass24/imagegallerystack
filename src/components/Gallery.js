@@ -33,6 +33,7 @@ const Container = styled.div`
   width: 100%;
   height: auto;
   padding: 10px 5px;
+  margin: 0 5px;
   //margin-right: 9px;
   //margin-left: 9px;
 }
