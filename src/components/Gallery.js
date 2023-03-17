@@ -20,13 +20,14 @@ const Container = styled.div`
   width: 100%;
   height: auto;
   object-fit: cover;
+  padding: 10px 0;
 }
 
 .insta {
   break-inside: avoid-column; /* prevent items from breaking across columns */
-  margin-top: 100px;
-  margin-bottom: 100px;
-  //margin-bottom: 18px; /* add margin to the bottom of each item to create spacing */
+  //margin-top: 100px;
+  //margin-bottom: 100px;
+  margin-bottom: 18px; /* add margin to the bottom of each item to create spacing */
   box-sizing: border-box;
   box-shadow: 1px 1px 10px #444;
   width: 100%;
