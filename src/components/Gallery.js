@@ -12,9 +12,34 @@ const Container = styled.div`
   background-color: #fef5e6;
 
 .infinite-scroll-component {
-  columns: 3;
+  columns: 1;
   column-gap: 10px;
 }
+
+@media screen and (min-width: 600px) {
+  .infinite-scroll-component {
+    columns: 2;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .infinite-scroll-component {
+    columns: 3;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .infinite-scroll-component {
+    columns: 4;
+  }
+}
+
+/* add more media queries for additional breakpoints */
+
+//.infinite-scroll-component {
+//  columns: 3;
+//  column-gap: 10px;
+//}
 
 .insta-img {
   width: 100%;
