@@ -33,8 +33,8 @@ const Container = styled.div`
   box-shadow: 1px 1px 10px #444;
   width: 100%;
   height: auto;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   //padding: 0; //10px 5px;
   //margin: 0 5px;
   //border: 10px solid transparent;
