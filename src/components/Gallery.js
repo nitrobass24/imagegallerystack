@@ -20,7 +20,7 @@ const Container = styled.div`
   width: 100%;
   height: auto;
   object-fit: cover;
-  padding: 10px 0;
+  //padding: 10px 0;
 }
 
 .insta {
@@ -32,6 +32,7 @@ const Container = styled.div`
   box-shadow: 1px 1px 10px #444;
   width: 100%;
   height: auto;
+  padding: 10px 5px;
   //margin-right: 9px;
   //margin-left: 9px;
 }
