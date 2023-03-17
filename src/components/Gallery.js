@@ -14,7 +14,7 @@ const Container = styled.div`
 .infinite-scroll-component {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start; //center;
   align-items: flex-start; /* align to the top of the container */
 }
 
