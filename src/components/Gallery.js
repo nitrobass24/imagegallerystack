@@ -20,7 +20,7 @@ const Container = styled.div`
   width: 100%;
   height: auto;
   object-fit: cover;
-  padding: 10px;
+  //padding: 10px;
   box-sizing: border-box;
 }
 
