@@ -29,8 +29,9 @@ const Container = styled.div`
   box-shadow: 1px 1px 10px #444;
   width: 100%;
   height: auto;
-  margin-right: 9px;
-  margin-left: 9px;
+  margin: 10px 5px;
+  //margin-right: 9px;
+  //margin-left: 9px;
 }
 
 //.infinite-scroll-component {
