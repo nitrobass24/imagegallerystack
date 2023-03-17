@@ -15,7 +15,7 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start; //center;
-  align-items: flex-start; /* align to the top of the container */
+  //align-items: flex-start; /* align to the top of the container */
 }
 
 .insta-img {
