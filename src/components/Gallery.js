@@ -12,26 +12,48 @@ const Container = styled.div`
   background-color: #fef5e6;
 
 .infinite-scroll-component {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  //align-items: flex-start; /* align to the top of the container */
+  columns: 3;
+  column-gap: 0;
 }
 
 .insta-img {
-  width: 100%; /* fill the width of the container */
-  height: auto; /* maintain aspect ratio */
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
 .insta {
-  //width: calc((100% - 18px * 2) / 4); /* calculate the width of each column based on the number of columns you want */
-  flex-basis: calc((100% - 18px * 2) / 3 - 6px); /* fixed width + margin */
-  height: auto; /* maintain aspect ratio */
+  break-inside: avoid-column; /* prevent items from breaking across columns */
+  margin-bottom: 18px; /* add margin to the bottom of each item to create spacing */
   box-sizing: border-box;
   box-shadow: 1px 1px 10px #444;
-  margin: 9px;
+  width: 100%;
+  height: auto;
+  margin-right: 9px;
+  margin-left: 9px;
 }
+
+//.infinite-scroll-component {
+  //display: flex;
+  //flex-wrap: wrap;
+  //justify-content: center;
+  //align-items: flex-start; /* align to the top of the container */
+//}
+
+//.insta-img {
+  //width: 100%; /* fill the width of the container */
+  //height: auto; /* maintain aspect ratio */
+  //object-fit: cover;
+//}
+
+//.insta {
+  //width: calc((100% - 18px * 2) / 4); /* calculate the width of each column based on the number of columns you want */
+  //flex-basis: calc((100% - 18px * 2) / 3 - 6px); /* fixed width + margin */
+  //height: auto; /* maintain aspect ratio */
+  //box-sizing: border-box;
+  //box-shadow: 1px 1px 10px #444;
+  //margin: 9px;
+//}
 
   //.infinite-scroll-component {
    // display: flex;
