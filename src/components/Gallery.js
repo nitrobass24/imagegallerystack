@@ -25,7 +25,8 @@ const Container = styled.div`
 }
 
 .insta {
-  width: calc((100% - 18px * 2) / 4); /* calculate the width of each column based on the number of columns you want */
+  //width: calc((100% - 18px * 2) / 4); /* calculate the width of each column based on the number of columns you want */
+  flex-basis: calc((100% - 18px * 2) / 3 - 6px); /* fixed width + margin */
   height: auto; /* maintain aspect ratio */
   box-sizing: border-box;
   box-shadow: 1px 1px 10px #444;
