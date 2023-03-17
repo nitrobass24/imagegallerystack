@@ -13,7 +13,7 @@ const Container = styled.div`
 
 .infinite-scroll-component {
   columns: 3;
-  column-gap: 0;
+  column-gap: 10px;
 }
 
 .insta-img {
