@@ -24,8 +24,8 @@ const Container = styled.div`
 
 .insta {
   break-inside: avoid-column; /* prevent items from breaking across columns */
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   //margin-bottom: 18px; /* add margin to the bottom of each item to create spacing */
   box-sizing: border-box;
   box-shadow: 1px 1px 10px #444;
